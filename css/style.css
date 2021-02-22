@@ -264,4 +264,10 @@ tr:nth-child(even) {
 
 .feature-info {
     padding: 25px;
+    border-radius: 10px;
+}
+.feature-info-icon {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
 }
