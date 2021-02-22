@@ -1,0 +1,267 @@
+/******************************************
+                don't use css
+******************************************/
+.theme-color {
+    color: #01a89e;
+    background-color: #01a89d79;
+}
+.theme-color:hover {
+    color: #01857c;
+    background-color: #01a89da2;
+}
+
+
+
+/******************************************
+                global css
+******************************************/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+/******************************************
+                header css
+******************************************/
+.logo {
+    height: 40px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+}
+
+
+
+
+/******************************************
+                section css
+******************************************/
+section .container {
+    padding: 50px 0;
+}
+
+.section-bg {
+    background-color: #f2f2f2;
+}
+
+.row {
+    margin: 50px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        margin: 30px 0;
+    }
+  }
+
+.card-body .row {
+    margin: 10px 0;
+}
+
+
+
+/******************************************
+                section css
+******************************************/
+
+.testimonial {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.testimonial img {
+    height: 120px;
+}
+
+.testimonial p {
+    margin: 22px 0 0 20px;
+}
+
+.testimonial h4 {
+    margin-left: 20px;
+}
+
+
+
+/******************************************
+                team section css
+******************************************/
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+  
+  
+  
+.cnt-block{ 
+     float:left; 
+     width:100%; 
+     background:#fff; 
+     padding:30px 20px; 
+     text-align:center; 
+     border:2px solid #d5d5d5;
+     margin: 0 0 28px;
+  }
+.cnt-block figure{
+     width:148px; 
+     height:148px; 
+     border-radius:100%; 
+     display:inline-block;
+     margin-bottom: 15px;
+  }
+.cnt-block img{ 
+     width:148px; 
+     height:148px; 
+     border-radius:100%; 
+  }
+.cnt-block h3{ 
+     color:#2a2a2a; 
+     font-size:20px; 
+     font-weight:500; 
+     padding:6px 0;
+     text-transform:uppercase;
+  }
+.cnt-block h3 a{
+    text-decoration:none;
+      color:#2a2a2a;
+  }
+.cnt-block h3 a:hover{
+      color:#337ab7;
+  }
+.cnt-block p{ 
+     color:#2a2a2a; 
+     font-size:13px; 
+     line-height:20px; 
+     font-weight:400;
+  }
+.cnt-block .follow-us{
+      margin:20px 0 0;
+  }
+.cnt-block .follow-us li{ 
+      display:inline-block; 
+      width:auto; 
+      margin:0 5px;
+  }
+.cnt-block .follow-us li .fab{ 
+     font-size:24px; 
+     color:#767676;
+  }
+.cnt-block .follow-us li .fab:hover{ 
+     color:#025a8e;
+  }
+  
+
+
+
+/******************************************
+                contact section css
+******************************************/
+
+  .contact-btn {
+      width: 100%;
+  }
+
+/******************************************
+                footer section css
+******************************************/
+footer {
+    background-color: #282531;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer li:first-child {
+    font-weight: 700;
+}
+
+.copyright {
+    color: #CDCDCD;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icon li:last-child {
+    margin-right: 0;
+}
+
+.social-icon li a {
+    color: #fff;
+    font-size: 18px;
+}
+.social-icon li a:hover {
+    color: rgb(173, 173, 173);
+}
+
+
+
+/******************************************
+                cards css
+******************************************/
+.faq-card {
+    margin: 50px 15px;
+}
+
+
+
+
+/******************************************
+                Couse detail card
+******************************************/
+.course-detail-image {
+    width: 100%;
+}
+
+
+
+
+/******************************************
+                tabile design
+******************************************/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #413f3f;
+    font-size: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+
+/******************************************
+                mission & vision
+******************************************/
+
+.feature-info {
+    padding: 25px;
+}
