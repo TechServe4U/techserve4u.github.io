@@ -271,3 +271,11 @@ tr:nth-child(even) {
     text-align: center;
     margin-bottom: 20px;
 }
+
+
+/******************************************
+                404
+******************************************/
+.page-not-found {
+    font-size: 350px;
+}
