@@ -332,3 +332,18 @@ tr:nth-child(even) {
       padding: 10px;
       color: rgb(0, 162, 255);
   }
+
+  .scroll-a {
+    display: block;
+    width: 500px !important;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    text-align: justify !important;
+    margin: 10px;
+    color: #282828;
+  }
+
+  .scroll-a i {
+    font-size: 14px !important;
+  }
