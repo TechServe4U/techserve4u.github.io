@@ -279,3 +279,56 @@ tr:nth-child(even) {
 .page-not-found {
     font-size: 350px;
 }
+
+
+
+
+
+/******************************************
+                scroll
+******************************************/
+.scroll-box {
+    display: flex;
+    widows: 100%;
+    overflow: hidden;
+  }
+  .scroll-box:hover {
+    overflow: auto;
+    overflow-y: hidden;
+  }
+  .scroll-box li {
+    display: inline-block;
+  }
+  .scroll-box a {
+    display: block;
+    width: 300px;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    color: #282828;
+  }
+  .scroll-box a:hover {
+    text-decoration: none;
+  }
+  .scroll-box a h3 {
+    margin-top: 10px;
+  }
+  .scroll-box a h1 {
+    margin-top: 10px;
+    color: orange;
+  }
+  .scroll-box a h4 {
+    color: #aaa;
+    margin-bottom: 15px;
+  }
+  .scroll-box a h5 {
+    line-height: 20px;
+  }
+
+  .scroll-box i {
+      font-size: 38px;
+      padding: 10px;
+      color: rgb(0, 162, 255);
+  }
