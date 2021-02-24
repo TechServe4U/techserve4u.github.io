@@ -23,11 +23,19 @@
     font-family: 'Montserrat', sans-serif im !important;
 }
 
-.sub-heading {
+h2 {
   text-align: center;
   font-weight: 700;
   margin-bottom: 50px;
   color: #413960;
+}
+
+.card {
+  box-shadow: 5px 5px 5px #c8c8c8;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px #f2f2f2;
 }
 
 /******************************************
