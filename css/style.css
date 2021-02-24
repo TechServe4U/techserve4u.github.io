@@ -22,7 +22,12 @@
     font-family: sans-serif;
 }
 
-
+.sub-heading {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #413960;
+}
 
 /******************************************
                 header css
@@ -33,9 +38,17 @@
 
 nav ul li a {
     text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li a:hover {
+  color: #007bff !important;
 }
 
 
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #007bff !important;
+}
 
 
 /******************************************
@@ -347,3 +360,92 @@ tr:nth-child(even) {
   .scroll-a i {
     font-size: 14px !important;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* design start from here */
+  .navbar-light {
+    background-color: white !important;
+    border-top: 1px solid #dad7d7;
+    border-bottom: 1px solid #dad7d7;
+  }
+
+  .nav-icon {
+    border: 1px solid #dad7d7;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 0;
+}
+
+.live {
+  margin-top: 7px;
+  color: red;
+  animation: mymove 2s infinite;
+}
+.live:hover {
+  color: red;
+}
+
+@keyframes mymove {
+  from {color: red;}
+  to {color: rgb(231, 235, 18);}
+}
+
+.fb:hover {
+  background-color: #3b5998;
+  color: white;
+  border: 1px solid #3b5998;
+}
+
+.yt:hover {
+  background-color: #FF0000;
+  color: white;
+  border: 1px solid #FF0000;
+}
+
+.ldi:hover {
+  background-color: #0e76a8;
+  color: white;
+  border: 1px solid #0e76a8;
+}
+
+.call:hover i {
+  background-color: #01857c;
+  color: white;
+  border: 1px solid #01857c;
+}
+
+.email:hover i {
+  background-color: #014a85;
+  color: white;
+  border: 1px solid #014a85;
+}
+
+.address:hover i {
+  background-color: #85017a;
+  color: white;
+  border: 1px solid #85017a;
+}
+
+.popup {
+  width: 100%;
+}

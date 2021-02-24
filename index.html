@@ -35,26 +35,40 @@
 
 <body>
 
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Our Next Live</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img class="popup" src="images/popup/popup.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="container">
         <div class="d-flex">
             <div class="mr-auto p-2 navbar navbar-expand-lg navbar-expand-sm">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-phone-alt"></i> +(1)
+                    <li class="nav-item"><a class="nav-link call" href="#"><i class="nav-icon fas fa-phone-alt"></i> +(1)
                             586-834-8526</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-envelope"></i>
+                    <li class="nav-item"><a class="nav-link email" href="#"><i class="nav-icon fas fa-envelope"></i>
                             info@techserve4u.com</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-map-marker-alt"></i> Warren,
+                    <li class="nav-item"><a class="nav-link address" href="#"><i class="nav-icon fas fa-map-marker-alt"></i> Warren,
                             MI</a></li>
                 </ul>
             </div>
             <div class="p-2 navbar navbar-expand-lg navbar-expand-sm">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="nav-icon fab fa-facebook-square fb"></i></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube-square"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Live</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="nav-icon fab fa-youtube-square yt"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="nav-icon fab fa-linkedin ldi"></i></a></li>
+                    <li class="nav-item"><a class="nav-link live" href="#">&#9679; Live</a></li>
                 </ul>
             </div>
         </div>
@@ -143,7 +157,7 @@
     <main>
         <section>
             <div class="container text-center">
-                <h2>About TechServe4u</h2>
+                <h2 class="sub-heading">About TechServe4u</h2>
                 <p>Tech Serve4 U – the name says it all. We are here to be the right companion for bringing your success
                     in the career!</p>
 
@@ -174,7 +188,7 @@
                     </div>
                 </div>
 
-                <a href="about-us.html">Know More About TechServe4u &#8594;</a>
+                <a href="about-us.html" class="btn btn-primary">Know More About TechServe4u &#8594;</a>
             </div>
         </section>
 
@@ -702,6 +716,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#myModal").modal('show');
+        });
+    </script>
 
 </body>
 
