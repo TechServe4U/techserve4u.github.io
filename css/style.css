@@ -435,15 +435,15 @@ tr:nth-child(even) {
 }
 
 .email:hover i {
-  background-color: #014a85;
+  background-color: #ff5722;
   color: white;
-  border: 1px solid #014a85;
+  border: 1px solid #ff5722;
 }
 
 .address:hover i {
-  background-color: #85017a;
+  background-color: #673ab7;
   color: white;
-  border: 1px solid #85017a;
+  border: 1px solid #673ab7;
 }
 
 .popup {
