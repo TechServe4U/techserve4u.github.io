@@ -451,8 +451,6 @@ tr:nth-child(even) {
 
 .feedback-person {
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #f2f2f2;
-  border: 1px solid #c8c8c8;
 }
 
 .btn5{
