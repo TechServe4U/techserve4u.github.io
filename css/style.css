@@ -427,6 +427,12 @@ tr:nth-child(even) {
   border: 1px solid #0e76a8;
 }
 
+.sl:hover {
+  background-color: #dd4b39;
+  color: white;
+  border: 1px solid #dd4b39;
+}
+
 .call:hover i {
   background-color: #01857c;
   color: white;
