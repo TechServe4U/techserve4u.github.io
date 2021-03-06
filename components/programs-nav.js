@@ -31,7 +31,7 @@ function navTemplate(nav) {
                     </button>
                 </div>
                 <div>
-                    <img class="popup" src="../../images/popup/next-live.jpg" alt="">
+                    <img class="popup" src="../images/popup/next-live.jpg" alt="">
                 </div>
                 <div class="modal-footer">
                     <a href="https://www.facebook.com/techserve4u/" target="_blank" class="btn btn-primary">Join
