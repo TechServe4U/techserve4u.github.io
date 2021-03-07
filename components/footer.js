@@ -14,9 +14,9 @@ function footerTemplate(footer) {
                     <div>
                         <ul>
                             <li>Programs</li>
-                            <li><a href="program-details.html">E2E API Test</a></li>
-                            <li><a href="program-details.html">QA API Automation Engineer</a></li>
-                            <li><a href="program-details.html">E2E Web and API Automation</a></li>
+                            <li><a href="programs/Software-Quality-Engineer_E2E-API-Test.html">E2E API Test</a></li>
+                            <li><a href="programs/QA-API-Automation-Engineer.html">QA API Automation Engineer</a></li>
+                            <li><a href="programs/Software-Quality-Engineer_E2E-Web-and-API-Automation.html">E2E Web and API Automation</a></li>
                         </ul>
                     </div>
                 </div>
