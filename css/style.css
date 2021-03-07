@@ -422,6 +422,10 @@ tr:nth-child(even) {
 }
 
 
+.enrollment {
+  margin-top: 7px;
+}
+
 .live-btn {
   padding: 0 25px;
 }

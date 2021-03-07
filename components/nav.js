@@ -63,6 +63,8 @@ function navTemplate(nav) {
             </div>
             <div class="p-2 navbar navbar-expand-lg navbar-expand-sm">
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link enrollment" href="https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBxoiqdC61bDfmJlP8CPPaMSmHeLx109YRgTF7nXxfcd7_FMjZsUYvu1e_nfshEFBo*" target="_blank">Enrollment</a></li>
+                    
                     <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/techserve4u/"
                             target="_blank"><i class="nav-icon fab fa-facebook-square fb"></i></a>
                     </li>
@@ -75,6 +77,7 @@ function navTemplate(nav) {
                     <li class="nav-item"><a class="nav-link" href="https://join.slack.com/t/techserve4ullc/shared_invite/zt-mik6lmar-mpTFcBIOi~uQiuYxfFsUBA"
                             target="_blank"><i class="nav-icon fab fa-slack sl"></i></a>
                     </li>
+                    
                     <li class="nav-item"><a class="nav-link live" href="#" data-toggle="modal"
                             data-target="#exampleModal">&#9679; Live</a></li>
                 </ul>
