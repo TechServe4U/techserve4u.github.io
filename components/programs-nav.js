@@ -8,7 +8,7 @@ const navsData = [
 function navTemplate(nav) {
     return `
     <div class="icon-bar">
-        <a href="https://wa.me/15868348526" target="_blank" class="twitter"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://wa.me/15866653331" target="_blank" class="twitter"><i class="fab fa-whatsapp"></i></a>
         <a href="https://www.facebook.com/techserve4u/" target="_blank" class="facebook"><i
                 class="fab fa-facebook"></i></a>
         <a href="https://www.youtube.com/channel/UCQsoLRTB8n7iPBWI1noZTiw" target="_blank" class="youtube"><i
