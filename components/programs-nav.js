@@ -63,6 +63,8 @@ function navTemplate(nav) {
             </div>
             <div class="p-2 navbar navbar-expand-lg navbar-expand-sm">
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link enrollment" href="https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBxoiqdC61bDfmJlP8CPPaMSmHeLx109YRgTF7nXxfcd7_FMjZsUYvu1e_nfshEFBo*" target="_blank">Enrollment</a></li>
+
                     <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/techserve4u/"
                             target="_blank"><i class="nav-icon fab fa-facebook-square fb"></i></a>
                     </li>
