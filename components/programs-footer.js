@@ -25,6 +25,7 @@ function footerTemplate(footer) {
                         <ul>
                             <li>Products</li>
                             <li><a href="https://staging.biyekorun.us/">Biye Korun</a></li>
+                            <li><a href="https://wrp.techserve4u.com/">Workforce Readiness</a></li>
                         </ul>
                     </div>
                 </div>
