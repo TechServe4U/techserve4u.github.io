@@ -335,10 +335,8 @@ tr:nth-child(even) {
     line-height: 20px;
   }
 
-  .scroll-box i {
-      font-size: 38px;
-      padding: 10px;
-      color: rgb(0, 162, 255);
+  .scroll-box img {
+    width: 100%;
   }
 
   .scroll-a {
@@ -362,6 +360,39 @@ tr:nth-child(even) {
 
 
 
+
+
+
+  /* Our Process of Work card */
+
+
+  .service-single i {
+    font-size: 38px;
+    padding: 10px;
+    color: rgb(0, 162, 255);
+}
+
+.custom-dev-listing {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  border-color: rgb(216, 216, 216) currentcolor currentcolor rgb(216, 216, 216);
+  border-style: solid none none solid;
+  border-width: 1px 0px 0px 1px;
+  border-image: none 100% / 1 / 0 stretch;
+}
+
+
+.custom-dev-listing .service-single {
+  max-width: 33.33%;
+  border-color: currentcolor rgb(216, 216, 216) rgb(216, 216, 216) currentcolor;
+  border-style: none solid solid none;
+  border-width: 0px 1px 1px 0px;
+  border-image: none 100% / 1 / 0 stretch;
+  box-shadow: inherit;
+  padding: 24px;
+}
 
 
 
