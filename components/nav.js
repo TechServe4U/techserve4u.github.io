@@ -58,9 +58,9 @@ function navTemplate(nav) {
                             href="https://www.google.com/search?client=firefox-b-d&q=techserve4u" target="_blank"><i
                                 class="nav-icon fas fa-map-marker-alt"></i> <small>Warren,
                             MI</small></a></li>
-                    <li class="nav-item"><a class="nav-link address"
+                    <li class="nav-item"><a class="nav-link"
                     href="https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBxoiqdC61bDfmJlP8CPPaMSmHeLx109YRgTF7nXxfcd7_FMjZsUYvu1e_nfshEFBo*" target="_blank"><i
-                        class="nav-icon fas fa-user-plus"></i> <small>Enrollment</small></a></li>        
+                        class="nav-icon fas fa-user-plus ldi"></i> <small>Enrollment</small></a></li>        
                 </ul>
             </div>
             <div class="p-2 navbar navbar-expand-lg navbar-expand-sm">
