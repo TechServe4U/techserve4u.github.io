@@ -47,24 +47,24 @@ function navTemplate(nav) {
     <div class="container">
         <div class="d-flex">
             <div class="mr-auto p-2 navbar navbar-expand-lg navbar-expand-sm">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto up-nav">
                     <li class="nav-item"><a class="nav-link call" href="tel:+15868348526"><i
                                 class="nav-icon fas fa-phone-alt"></i>
-                            +(1)
-                            586-834-8526</a></li>
+                            <small>+(1) 586-834-8526</small></a></li>
                     <li class="nav-item"><a class="nav-link email" href="mailto:info@techserve4u.com"><i
                                 class="nav-icon fas fa-envelope"></i>
-                            info@techserve4u.com</a></li>
+                                <small>info@techserve4u.com</small></a></li>
                     <li class="nav-item"><a class="nav-link address"
                             href="https://www.google.com/search?client=firefox-b-d&q=techserve4u" target="_blank"><i
-                                class="nav-icon fas fa-map-marker-alt"></i> Warren,
-                            MI</a></li>
+                                class="nav-icon fas fa-search-location"></i> <small>Warren,
+                            MI</small></a></li>
+                    <li class="nav-item"><a class="nav-link"
+                    href="https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBxoiqdC61bDfmJlP8CPPaMSmHeLx109YRgTF7nXxfcd7_FMjZsUYvu1e_nfshEFBo*" target="_blank"><i
+                        class="nav-icon fas fa-sign-in-alt ldi"></i> <small>Enrollment</small></a></li>        
                 </ul>
             </div>
             <div class="p-2 navbar navbar-expand-lg navbar-expand-sm">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link enrollment" href="https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBxoiqdC61bDfmJlP8CPPaMSmHeLx109YRgTF7nXxfcd7_FMjZsUYvu1e_nfshEFBo*" target="_blank">Enrollment</a></li>
-
                     <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/techserve4u/"
                             target="_blank"><i class="nav-icon fab fa-facebook-square fb"></i></a>
                     </li>
@@ -77,8 +77,9 @@ function navTemplate(nav) {
                     <li class="nav-item"><a class="nav-link" href="https://join.slack.com/t/techserve4ullc/shared_invite/zt-mik6lmar-mpTFcBIOi~uQiuYxfFsUBA"
                             target="_blank"><i class="nav-icon fab fa-slack sl"></i></a>
                     </li>
+                    
                     <li class="nav-item"><a class="nav-link live" href="#" data-toggle="modal"
-                            data-target="#exampleModal">&#9679; Live</a></li>
+                            data-target="#exampleModal"><small>&#9679; Live</small></a></li>
                 </ul>
             </div>
         </div>
