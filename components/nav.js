@@ -56,7 +56,7 @@ function navTemplate(nav) {
                                 <small>info@techserve4u.com</small></a></li>
                     <li class="nav-item"><a class="nav-link address"
                             href="https://www.google.com/search?client=firefox-b-d&q=techserve4u" target="_blank"><i
-                                class="nav-icon fas fa-map-marker-alt"></i> <small>Warren,
+                                class="nav-icon fas fa-search-location"></i> <small>Warren,
                             MI</small></a></li>
                     <li class="nav-item"><a class="nav-link"
                     href="https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBxoiqdC61bDfmJlP8CPPaMSmHeLx109YRgTF7nXxfcd7_FMjZsUYvu1e_nfshEFBo*" target="_blank"><i
