@@ -45,16 +45,19 @@
   height: 40px;
 }
 
+textarea {
+  height: 150px;
+}
 /******************************************
                 section css
 ******************************************/
 section .container {
     padding: 50px 0;
 }
-/* 
+
 .section-bg {
     background-color: #f2f2f2;
-} */
+}
 
 .row {
     margin: 50px 0;
@@ -186,8 +189,8 @@ ul{
                 footer section css
 ******************************************/
 footer {
-    background-color: #f6f6f6;
-    color: #555353;
+    background-color: #413960;
+    color: #fff;
     padding: 10px 0;
 }
 
@@ -204,7 +207,7 @@ footer li:first-child {
 }
 
 .copyright {
-    color: #555353;
+    color: #fff;
     text-align: center;
     margin-top: 30px;
 }
@@ -218,7 +221,7 @@ footer li:first-child {
 }
 
 .social-icon li a {
-    color: #555353;
+    color: #fff;
     font-size: 18px;
 }
 .social-icon li a:hover {
@@ -994,7 +997,7 @@ hr.light-bg {
 }
 
 .bg-light {
-  background-color: #f6f6f6 !important;
+  background-color: #21b573 !important;
 }
 
 .bg-black {
@@ -5012,7 +5015,7 @@ Form Control
 .form-control {
   border: 1px solid #eeeeee;
   border-radius: 0px;
-  height: 48px;
+  /* height: 48px; */
   padding: 10px 20px;
   -webkit-box-shadow: none;
   box-shadow: none;
