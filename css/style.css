@@ -1,50 +1,49 @@
+
+
+.bg-secondary {
+  background-color: #6c757d !important;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../images/icon/left.png);
+}
+
+.carousel-control-next-icon {
+  background-image: url(../images/icon/right.png);
+}
+
+
 /******************************************
                 don't use css
 ******************************************/
 .theme-color {
-    color: #01a89e;
-    background-color: #01a89d79;
+  color: #01a89e;
+  background-color: #01a89d79;
 }
 .theme-color:hover {
-    color: #01857c;
-    background-color: #01a89da2;
+  color: #01857c;
+  background-color: #01a89da2;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
-
 /******************************************
-                global css
+              global css
 ******************************************/
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif im !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif im !important;
 }
 
 
 /******************************************
-                header css
+              header css
 ******************************************/
 .logo {
-    height: 40px;
+  height: 40px;
 }
-
-nav ul li a {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-nav ul li a:hover {
-  color: #007bff !important;
-}
-
-
-
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-  color: #007bff !important;
-}
-
 
 /******************************************
                 section css
@@ -52,10 +51,10 @@ nav ul li a:hover {
 section .container {
     padding: 50px 0;
 }
-
+/* 
 .section-bg {
     background-color: #f2f2f2;
-}
+} */
 
 .row {
     margin: 50px 0;
@@ -69,6 +68,10 @@ section .container {
 
 .card-body .row {
     margin: 10px 0;
+}
+
+.home-icon {
+  width: 80px;
 }
 
 
@@ -165,6 +168,9 @@ ul{
      color:#025a8e;
   }
   
+
+
+
 
 
 
