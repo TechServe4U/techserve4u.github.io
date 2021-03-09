@@ -14,6 +14,26 @@
   background-image: url(../images/icon/right.png);
 }
 
+.card:hover {
+  box-shadow: 5px 5px 10px #dbdbdb;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.card-footer-icon .col-6 {
+padding-right: 0 !important;
+padding-left: 0 !important;
+}
+
+.testimonial2 .col-md-12 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  }
+
+  .testimonial2 .row {
+    margin: 20px 0;
+  }
+
 
 /******************************************
                 don't use css
@@ -45,18 +65,15 @@
   height: 40px;
 }
 
-textarea {
-  height: 150px;
-}
 /******************************************
                 section css
 ******************************************/
 section .container {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .section-bg {
-    background-color: #f2f2f2;
+    background-color: #fdfbfb;
 }
 
 .row {
@@ -86,6 +103,11 @@ section .container {
 .testimonial {
     width: 70%;
     margin: 0 auto;
+}
+
+.testimonial2 {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .testimonial img {
@@ -192,7 +214,7 @@ ul{
                 footer section css
 ******************************************/
 footer {
-    background-color: #413960;
+    background-color: #0e1454;
     color: #fff;
     padding: 10px 0;
 }
@@ -229,6 +251,10 @@ footer li:first-child {
 }
 .social-icon li a:hover {
     color: rgb(173, 173, 173);
+}
+
+footer .row {
+  margin: 20px 0;
 }
 
 
@@ -985,7 +1011,7 @@ hr {
 /* hr light bg */
 
 hr.light-bg {
-  border-top-color: #dfdfdf;
+  border-top-color: #f6f6f6;
 }
 
 
@@ -1000,7 +1026,7 @@ hr.light-bg {
 }
 
 .bg-light {
-  background-color: #21b573 !important;
+  background-color: #e2e2e2 !important;
 }
 
 .bg-black {
@@ -5928,7 +5954,16 @@ List style
 .navbar .navbar-nav .nav-link {
   font-weight: 600;
   font-size: 16px;
-  /* padding: 10px 16px 10px; */
+  padding: 10px 16px 10px; 
+  margin-right: 15px;
+  color: #022d62;
+  text-transform: capitalize;
+}
+
+.navbar .navbar-nav .nav-link2 {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 !important; 
   margin-right: 15px;
   color: #022d62;
   text-transform: capitalize;

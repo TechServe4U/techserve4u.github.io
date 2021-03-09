@@ -48,38 +48,38 @@ function navTemplate(nav) {
         <div class="d-flex">
             <div class="mr-auto p-2 navbar navbar-expand-lg navbar-expand-sm">
                 <ul class="navbar-nav mr-auto up-nav">
-                    <li class="nav-item"><a class="nav-link call" href="tel:+15868348526"><i
+                    <li class="nav-item"><a class="nav-link nav-link2 call" href="tel:+15868348526"><i
                                 class="nav-icon fas fa-phone-alt"></i>
-                            <small>+(1) 586-834-8526</small></a></li>
-                    <li class="nav-item"><a class="nav-link email" href="mailto:info@techserve4u.com"><i
+                            <small><b>+(1) 586-834-8526</b></small></a></li>
+                    <li class="nav-item"><a class="nav-link nav-link2 email" href="mailto:info@techserve4u.com"><i
                                 class="nav-icon fas fa-envelope"></i>
-                                <small>info@techserve4u.com</small></a></li>
-                    <li class="nav-item"><a class="nav-link address"
+                                <small><b>info@techserve4u.com</b></small></a></li>
+                    <li class="nav-item"><a class="nav-link nav-link2 address"
                             href="https://www.google.com/search?client=firefox-b-d&q=techserve4u" target="_blank"><i
-                                class="nav-icon fas fa-search-location"></i> <small>Warren,
-                            MI</small></a></li>
-                    <li class="nav-item"><a class="nav-link"
+                                class="nav-icon fas fa-search-location"></i> <small><b>Warren,
+                            MI</b></small></a></li>
+                    <li class="nav-item"><a class="nav-link nav-link2"
                     href="https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBxoiqdC61bDfmJlP8CPPaMSmHeLx109YRgTF7nXxfcd7_FMjZsUYvu1e_nfshEFBo*" target="_blank"><i
-                        class="nav-icon fas fa-sign-in-alt ldi"></i> <small>Enrollment</small></a></li>        
+                        class="nav-icon fas fa-sign-in-alt ldi"></i> <small><b>Enrollment</b></small></a></li>        
                 </ul>
             </div>
             <div class="p-2 navbar navbar-expand-lg navbar-expand-sm">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/techserve4u/"
+                    <li class="nav-item"><a class="nav-link nav-link2" href="https://www.facebook.com/techserve4u/"
                             target="_blank"><i class="nav-icon fab fa-facebook-square fb"></i></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link"
+                    <li class="nav-item"><a class="nav-link nav-link2"
                             href="https://www.youtube.com/channel/UCQsoLRTB8n7iPBWI1noZTiw" target="_blank"><i
                                 class="nav-icon fab fa-youtube-square yt"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/company/techserve4u/"
+                    <li class="nav-item"><a class="nav-link nav-link2" href="https://www.linkedin.com/company/techserve4u/"
                             target="_blank"><i class="nav-icon fab fa-linkedin ldi"></i></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="https://join.slack.com/t/techserve4ullc/shared_invite/zt-mik6lmar-mpTFcBIOi~uQiuYxfFsUBA"
+                    <li class="nav-item"><a class="nav-link nav-link2" href="https://join.slack.com/t/techserve4ullc/shared_invite/zt-mik6lmar-mpTFcBIOi~uQiuYxfFsUBA"
                             target="_blank"><i class="nav-icon fab fa-slack sl"></i></a>
                     </li>
                     
-                    <li class="nav-item"><a class="nav-link live" href="#" data-toggle="modal"
-                            data-target="#exampleModal"><small>&#9679; Live</small></a></li>
+                    <li class="nav-item"><a class="nav-link nav-link2 live" href="#" data-toggle="modal"
+                            data-target="#exampleModal"><small><b>&#9679; Live</b></small></a></li>
                 </ul>
             </div>
         </div>
