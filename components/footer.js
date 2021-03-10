@@ -29,6 +29,8 @@ function footerTemplate(footer) {
                             <li>Products</li>
                             <li><a href="https://staging.biyekorun.us/">Biye Korun</a></li>
                             <li><a href="https://wrp.techserve4u.com/">Workforce Readiness</a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=com.techserve4u.fieldforce">Field Force</a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=com.hungrydroid.findme">Find Me</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,7 +60,7 @@ function footerTemplate(footer) {
 
             <div class="row">
                 <div class="col-md-12">
-                    <p class="copyright">&copy; TechServe4u LLC 2013-2021</p>
+                    <p class="copyright">&copy; Tech Serve4 U, LLC. 2013-2021</p>
                     <ul class="social-icon text-center">
                         <li><a href="https://www.facebook.com/techserve4u/"><i class="fab fa-facebook-square"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UCQsoLRTB8n7iPBWI1noZTiw"><i class="fab fa-youtube-square"></i></a></li>
