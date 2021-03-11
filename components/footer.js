@@ -14,12 +14,12 @@ function footerTemplate(footer) {
                     <div>
                         <ul>
                             <li>Programs</li>
-                            <li><a href="programs/Software-Quality-Engineer_E2E-API-Test.html">E2E API Test</a></li>
-                            <li><a href="programs/QA-API-Automation-Engineer.html">QA API Automation Engineer</a></li>
-                            <li><a href="programs/Software-Quality-Engineer_E2E-Web-and-API-Automation.html">E2E Web and API Automation</a></li>
-                            <li><a href="programs/Software-Quality-Engineer_Web-and-Database.html">QE Web and Database</a></li>
-                            <li><a href="programs/Software-Quality-Engineer_Web-and-Mobile.html">QE Web and Mobile</a></li>
-                            <li><a href="programs/DevOps-Engineer_CICD-Pipeline.html">DevOps Engineer CICD Pipeline</a></li>
+                            <li><a href="programs-devops-engineer_cicd-pipeline.html">DevOps Engineer CICD Pipeline</a></li>
+                            <li><a href="programs-qa-api-automation-engineer.html">QA API Automation Engineer</a></li>
+                            <li><a href="programs-software-quality-engineer_e2e-api-test.html">E2E API Test</a></li>
+                            <li><a href="programs-software-quality-engineer_e2e-web-and-api-automation.html">E2E Web and API Automation</a></li>
+                            <li><a href="programs-software-quality-engineer_web-and-database.html">QE Web and Database</a></li>
+                            <li><a href="programs-software-quality-engineer_web-and-mobile.html">QE Web and Mobile</a></li>
                         </ul>
                     </div>
                 </div>
