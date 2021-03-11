@@ -73,11 +73,15 @@ section .container {
 }
 
 .section-bg {
-    background-color: #fdfbfb;
+    background-color: #F3F8FC;
 }
 
 .row {
     margin: 50px 0;
+}
+
+.row1 {
+  margin: 10px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -92,6 +96,10 @@ section .container {
 
 .home-icon {
   width: 150px;
+}
+
+.custom-padding li {
+  padding-bottom: 5px;
 }
 
 
