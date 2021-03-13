@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 .bg-secondary {
   background-color: #6c757d !important;
