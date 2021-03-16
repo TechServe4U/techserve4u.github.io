@@ -22,6 +22,10 @@ html {
   cursor: pointer;
 }
 
+.card-hover {
+  margin-bottom: 15px;
+}
+
 .card-footer-icon .col-6 {
 padding-right: 0 !important;
 padding-left: 0 !important;
@@ -140,11 +144,6 @@ section .container {
     margin: 0 auto;
 }
 
-
-.slide .testimonial {
-  width: 100%;
-  margin: 0 auto;
-}
 
 .testimonial2 {
   width: 80%;
