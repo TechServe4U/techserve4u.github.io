@@ -8139,3 +8139,27 @@ Layout
 
 
 /*# sourceMappingURL=../css/style.css.map */
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .testimonial h4 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 15px;
+  }
+}
