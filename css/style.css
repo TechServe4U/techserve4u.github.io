@@ -140,6 +140,12 @@ section .container {
     margin: 0 auto;
 }
 
+
+.slide .testimonial {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .testimonial2 {
   width: 80%;
   margin: 0 auto;
