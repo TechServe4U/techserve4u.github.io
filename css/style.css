@@ -26,6 +26,10 @@ html {
   margin-bottom: 15px;
 }
 
+.custom-padding .container {
+  padding: 20px 15px;
+}
+
 .card-footer-icon .col-6 {
 padding-right: 0 !important;
 padding-left: 0 !important;
