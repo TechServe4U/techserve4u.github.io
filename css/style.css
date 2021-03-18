@@ -8166,4 +8166,35 @@ Layout
     color: white;
     font-size: 15px;
   }
+
+  .course-detail-image {
+    margin-bottom: 15px;
+  }
+
+  .btn5 .btn {
+    margin-bottom: 15px;
+    width: 100%;
+    
+  }
+
+  .btn-link {
+    white-space: normal;
+  }
+
+  .custom-dev-listing .service-single {
+    max-width: 100%;
+  }
+
+  .nav-link2 {
+    margin-bottom: 10px;
+  }
+
+  /* .nav-link2 small,
+  .nav-link2 .nav-icon {
+    font-size: 10px;
+  } */
+}
+
+.cont-space {
+  margin: 0 15px;
 }
