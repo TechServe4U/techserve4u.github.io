@@ -8198,3 +8198,11 @@ Layout
 .cont-space {
   margin: 0 15px;
 }
+
+h2 {
+  background-color: #b10000;
+  color: #fff;
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
