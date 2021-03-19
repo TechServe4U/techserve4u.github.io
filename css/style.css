@@ -8199,10 +8199,11 @@ Layout
   margin: 0 15px;
 }
 
+
 h2 {
   background-color: #01857c;
   color: #fff;
-  display: inline;
+  display: inline-block;
   padding: 5px 10px;
   border-radius: 5px;
 }
