@@ -42,8 +42,8 @@ function footerTemplate(footer) {
                             <li><a href="services-mobile-application-developmen.html">Mobile Application Development</a></li>
                             <li><a href="services-web-application-development.html">Web application development</a></li>
                             <li><a href="services-software-qa-and-testing.html">Software QA and Testing</a></li>
-                            <li><a href="#">Job Support</a></li>
-                            <li><a href="#">QA/QE Mock Interview</a></li>
+                            <li><a href="services.html#JobSupport">Job Support</a></li>
+                            <li><a href="services.html#MockInterview">QA/QE Mock Interview</a></li>
                         </ul>
                     </div>
                 </div>
