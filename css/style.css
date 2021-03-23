@@ -781,7 +781,7 @@ h6,
   font-family: "Archivo", sans-serif;
   font-weight: normal;
   color: #022d62;
-  margin: 0px 0px 1rem;
+  /* margin: 0px 0px 1rem; */
   font-weight: bold;
   line-height: 1.2;
 }
@@ -5911,7 +5911,7 @@ List style
 }
 
 .list li {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   color: #000000;
 }
 
@@ -8139,6 +8139,11 @@ Layout
   }
 }
 
+
+.contact-link {
+  margin-top: 74px; font-size: 22px;
+}
+
 @media (max-width: 479px) {
   .footer .container-fluid {
       padding: 0 15px;
@@ -8146,6 +8151,10 @@ Layout
   .font-xlll {
       font-size: 30px;
       line-height: 30px;
+  }
+
+  .contact-link {
+    margin-top: 15px; font-size: 18px;
   }
 }
 
@@ -8238,3 +8247,6 @@ h2 {
 p {
   text-align: justify;
 }
+
+
+
